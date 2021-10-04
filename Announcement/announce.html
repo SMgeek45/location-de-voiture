@@ -11,17 +11,30 @@ require_once("../Index/voitures.sql");
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../Index/index.css">
+    <title>Annonces</title>
 </head>
 <body>
-    <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
+  <div class="d-flex justify-content-between align-items-center mx-4" id="navbar">
+    <a href="../Index/index.html"><img class="nav-item" src="../IMG_0991.PNG" alt="logo" style="width: 11rem"></a>
+      <section class="nav-item mt-2">Annonces </section>
+    </ul>
+    <a href="../Account/account.html"><span class="nav-item mt-2">Mon compte</span></a>
+</div>
+      <header>
+        <div class="d-flex justify-content-center">
+          <label for="" class="mx-3 mt-5 pt-4">Trouver une annonce</label>
+          <p class="mx-3 mt-5 pt-4"><input type="search" placeholder="matricule, marque, modèle"></p>
       </div>
+      </header>
+      <main>
+        <div class="card m-3" style="width: 15rem;">
+          <div class="card-body">
+            <h5 class="card-title d-flex justify-content-center">Marque + modèle</h5>
+            <p class="card-text d-flex justify-content-center">Puissance<br>Couleur<br>Prix</p>
+          </div>
+        </div>
+      </main>
     <script src="../bootstrap/bootstrap.bundle.min.js"></script>
 </body>
 </html>
