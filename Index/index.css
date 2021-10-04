@@ -12,14 +12,25 @@ header img {
 }
 
 /*admin.html*/
-div#admin {
+main#admin {
+    display: flex;
+    flex-direction: column;
+}
+h1#admin_title, div#admin_title {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+div#admin_car {
     display: flex;
     justify-content: space-around;
 }
+div#car {
+    padding-top: 3%;
+}
 
-div#admin, div#car {
-    display: flex;
-    flex-direction: row;
+div#customer {
+    margin-top: 2%;
 }
 
 @media screen and(max-width:600px){
