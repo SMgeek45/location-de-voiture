@@ -1,0 +1,29 @@
+/*index.html*/
+header {
+    background-image: url(./concessionnaire-automobile-1080x640.jpg);
+    background-color: rgba(128, 128, 128, 0.212);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 10px;
+    height: 30vh;
+}
+header img {
+    margin-right: 13rem;
+}
+
+/*admin.html*/
+div#admin {
+    display: flex;
+    justify-content: space-around;
+}
+
+div#admin, div#car {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and(max-width:600px){
+    header img {
+        margin-left: 0;
+    }
+}
